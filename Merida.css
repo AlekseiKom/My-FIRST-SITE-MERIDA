@@ -1,0 +1,121 @@
+/*Here will be styles*/
+
+nav {
+    background-color: lightcyan;
+    float: right;
+    font-size: 15px;
+    color: darkslateblue;
+    font-family: "Cooper Black";
+    margin-top: -300px;
+    border: 4px inset lightgreen;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px lightgreen,
+    inset 5px 5px 5px darkseagreen;
+}
+a {
+    text-decoration: underline;
+}
+button {
+    background-color: lightgreen;
+    font-size: 15px;
+    color: darkslateblue;
+    font-family: "Cooper Black";
+}
+#doc_time {
+  color: darkslategrey;
+  font-size: 15px;
+  font-family: "Harlow Solid Italic";
+  font-weight: bold;
+  text-shadow: 5px 2px 4px grey;
+  letter-spacing: 2px;
+  
+}
+
+.chart {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;  
+    letter-spacing: 2px;
+    text-align:center;
+}
+
+h1 {background-color:darkcyan;
+    color:lightgreen;
+    border: 4px inset green;
+    border-radius: 18px;
+    background-image:url("moab_merida_big_nine.jpg");
+    background-size: cover;
+    padding: 25px;
+    box-shadow: 2px 2px 5px 5px lightgreen,
+     inset 5px 5px 5px darkseagreen;
+    
+}  
+.header{
+   font-family: "Harlow Solid Italic";
+   font-size: 120%;
+   text-shadow: 5px 2px 4px green;
+   letter-spacing: 2px;
+}
+body {
+   background-image:url("tektro.png");  
+   background-size: 300px 100px;
+
+ 
+}
+.description {
+    font-size: 15px;
+    font-family: "Harlow Solid Italic";    
+}
+
+ul {
+    color: darkslateblue;
+    font-family: "Cooper Black";
+    padding: 30px;
+    list-style:circle;
+    background-color: lightcyan;
+    background-image:url("tektro.png");
+    background-position: center;
+    background-size: 200px 50px;
+    border: solid 3px;
+    box-shadow: 2px 2px 5px 5px lightgreen,
+     inset 5px 5px 5px -5px lightskyblue;
+    border-radius: 8px;
+    columns: 2;
+}
+table {
+   border: 4px solid;
+   border-radius: 8px;
+   background-image:url("tektro.png");
+   background-size: 5%;
+   text-shadow: 2px 2px 2px grey;
+   box-shadow: 1px 2px 5px 5px aquamarine,
+     inset 5px 5px 5px darkseagreen 
+}
+
+.end {
+    color: black;
+    border: 4px solid greenyellow;
+    border-radius: 18px;
+    text-shadow: 2px 2px 2px green;
+    box-shadow: 1px 2px 5px 5px aquamarine,
+     inset 5px 5px 5px darkseagreen;
+    padding: 20px;
+    float:bottom;
+    width: 1200px;
+    height: 40px;
+    background:linear-gradient(greenyellow,lightgreen,lightblue);
+}
+.footer {
+    margin: -25px; 
+    background-image:url("logo_merida_lg.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 20%;
+    padding: 110px;
+}
+.section {
+    border: 2px solid cadetblue ;
+}
+
+    

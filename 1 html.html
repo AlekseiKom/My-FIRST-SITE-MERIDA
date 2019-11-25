@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Расписание работы/контакты</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Merida.js" type="text/javascript"></script>
+        <link href="Merida.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body bgcolor="lightcyan">
+        
+        <header>
+            <h1> 
+              <div>
+                  <p class="header" align="center"><i>Расписание
+                      </i></p>
+              </div>
+            </h1>
+        </header>
+        
+        <p align="center"><span id="doc_time"></span></p>
+        <script type="text/javascript">
+                 clock();
+        </script>
+
+        <div>
+        <hr width="600px" bg color="blue"/>
+        <!-- My Schedule section start -->
+        <div align="center">
+            <h4><font color="blue">Расписание работы сайта</font>        
+            </h4>
+            <table border="3px">
+                <tr>
+                    <th>День</th>
+                    <th>Понедельник</th>
+                    <th>Вторник</th>
+                    <th>Среда</th>
+                    <th>Четверг</th>
+                    <th>Пятница</th>
+                </tr>
+                <tr>
+                    <td>8-8:30</td>
+                    <td>Закупка</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td></td>
+                    <td>Распаковка/сбор партий</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1-1:30</td>
+                    <td></td>
+                    <td></td>
+                    <td>Комплектовка</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:45-5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Обработка заказов</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6-6:15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Продажа, отгрузка курьерам</td>
+                </tr>
+            </table>
+        </div>
+        <!-- My Schedule section end -->
+        </div>       
+        <footer>
+            <button onclick="show()">Показать</br>контакты </button>
+            <script>
+            function show(){
+                alert("Тел: 096123456789;\nE-mail:Lep4ik83@gmail.com\nLep4ik-7@mail.ru")
+            }    
+            </script>
+                
+        <h4><span style="color:red" >Свяжитесь со мной</span></h4>
+            <form>
+           <input name="name" type="text" value="Ваше имя" />
+           <input name="email" type="text" value="Ваш E-mail" /><br/>
+           <p><small><i><font color="purple">
+            Просим вас также оставлять отзывы и рекомендации по работе сайта
+            </font></i></small></p>
+           <textarea name="message"> текст сообщения </textarea>
+           <input type="submit" value="Отправить" class="submit" />
+            </form>
+        <p class="footer" align="center"></p>
+        <div class="end" align="center"> По вопросам разработки обращайтесь:
+                </br>
+                <i><b><font color="red"> Lep4ik83@gmail.com</font></b></i> 
+                (Алексей Комаров)
+            </div>
+       
+           </footer> 
+       
+        
+                <marquee width="49%" style="color: lightgreen; 
+                         font-size: 40px; font-weight: bolder; 
+                         line-height: 150%; 
+                         text-shadow: #000000 0px 1px 1px;">MERIDA BIKES 
+                    MERIDA BIKES MERIDA BIKES MERIDA BIKES
+                </marquee>
+                <marquee width="49%" direction="right"
+                         style="color: darkgray; 
+                         font-size: 40px; font-weight: bolder;
+                         line-height: 150%; 
+                         text-shadow: #000000 0px 1px 1px;">BIG NINE TEAM BIG NINE TEAM
+                    BIG NINE NEAM BIG NINE TEAM BIG NINE TEAM
+                </marquee>
+    </body>       
+</html>
+ 
